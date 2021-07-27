@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!-- Meta tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Meta tags PWA -->
+    <meta name="theme-color" content="#3333333" />
+    <meta name="MobileOptimized" content="width" />
+    <meta name="HandheldFriendly" content="true" />
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <!-- Icons -->
+    <link rel="shortcut icon" href="./favicon.png" type="image/png">
+    <link rel="apple-touch-icon" href="./favicon.png" type="image/png">
+    <link rel="apple-touch-startup-image" href="./favicon.png" type="image/png">
+    <!-- manifest -->
+    <link rel="manifest" href="./manifest.json">
+    <!-- Title -->
+    <title>React CDN</title>
+    <script crossorigin src="https://unpkg.com/react@17/umd/react.production.min.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div id="root">
+
+    </div>
+    <!-- Sricpts -->
+    <script type="text/babel" src="./components/Contador.js"></script>
+    <script type="text/babel" src="./register.js"></script>
+    <script type="text/babel" src="./index.js">
+        // const Interpolar = () => {
+        //     //estado
+        //     const [numero, setNumber] = React.useState(0);
+        //     // const nombre = prompt("cual es tu nombre?")
+        //     setInterval(() => {
+        //         setNumber(numero + 1);
+        //     }, 1500);
+
+        //     return (
+        //         <div>
+        //             <h1>Fecha {numero}</h1>
+        //             <hr />
+        //         </div>
+        //     )
+        // }
+        // class Saludo extends React.Component {
+        //     render() {
+        //         return (
+        //             <ul>
+        //                 <li></li>
+        //                 <li></li>
+        //                 <li></li>
+        //                 <li></li>
+        //             </ul>
+        //         )
+        //     }
+        // }
+
+
+        // ReactDOM.render(React.createElement("h1", null, "Hola mundo gg"), document.getElementById("root"))
+        // ReactDOM.render(
+        //     <Interpolar />
+        //     ,
+        //     document.getElementById("root")
+        // )
+    </script>
+</body>
+
+</html>
