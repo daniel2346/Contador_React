@@ -1,6 +1,6 @@
-## App Cards React
+## Counter React
 
-App that shows cards dynamically using React, this uses technologies such as hooks and states from React.
+This simple app was developed to learn the first steps in react, it's a counter of numbers using responsive design
 
 ![Screenshot](screenshot.png)
 
